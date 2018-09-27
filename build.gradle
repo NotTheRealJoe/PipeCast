@@ -2,7 +2,9 @@ apply plugin: 'java-library'
 
 repositories {
     jcenter()
+    mavenCentral()
 }
 
 dependencies {
+    runtime 'su.litvak.chromecast:api-v2:0.10.4'
 }
